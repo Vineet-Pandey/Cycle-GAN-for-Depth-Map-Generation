@@ -33,7 +33,7 @@ Create a directory named **output** to save the inference outputs
 Create a directory named **samples_cyclegan** to save samples while training
 
 ## Training 
-`cd` to the folder where the scripts are placed
+`cd` to the folder where the scripts are placed and
 run ` python3 Training.py`
 
 ## Testing
