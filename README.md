@@ -22,16 +22,7 @@ discriminator which constantly pushes the generator to perform better.
 
 ## Directory Structure
 #### Dataset directory
-
-          |--->rgb--->rgb
-          |
-          |--->depth--->depth
-          | 
-Dataset-->|
-          |
-          |--->test_rgb--->rgb
-          |
-          |--->test_depth--->depth
+![alt text](https://github.com/Vineet-Pandey/Cycle-GAN-for-Depth-Map-Generation/blob/master/flow.JPG)
                  
 Corresponding images should go in final directory as shown above.      
 #### checkpoints_cyclegan directory
