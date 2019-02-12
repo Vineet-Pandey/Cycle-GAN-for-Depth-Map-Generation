@@ -13,10 +13,31 @@ unpaired dataset, it becomes more modular than Pix2Pix architecture. This modula
 the target domain, Mapping the image to
 target domain is done using a generator network and the quality of image is checked by the
 discriminator which constantly pushes the generator to perform better.
-![alt text](https://github.com/Vineet-Pandey/Image-Captioning-using-RNN-and-LSTM/blob/master/Image%20Captioning/image-captioning.png)
+![alt text](https://github.com/Vineet-Pandey/Cycle-GAN-for-Depth-Map-Generation/blob/master/cyclegan.png)
+## Dependencies
+1) Pytorch 0.4.1 or newer
+2) Python 3.6
+3) Matplotlib 3.0
+4) OpenCV 3.4 or higher
 
 ## Directory Structure
 ### Dataset directory
+
+          |--->rgb--->rgb
+          |
+          |--->depth--->depth
+          | 
+Dataset-->|
+          |
+          |--->test_rgb--->rgb
+          |
+          |
+          |--->test_depth--->depth
+          
+Corresponding images should go in final directory as shown above.
+          
 ### checkpoints_cyclegan directory
+Create a directory named **checkpoints_cyclegan** to save the .pkl files 
 ### output
+Create a directory named **output** to save the inference outputs
 
