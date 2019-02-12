@@ -21,7 +21,7 @@ discriminator which constantly pushes the generator to perform better.
 4) OpenCV 3.4 or higher
 
 ## Directory Structure
-### Dataset directory
+#### Dataset directory
 
           |--->rgb--->rgb
           |
@@ -31,13 +31,11 @@ Dataset-->|
           |
           |--->test_rgb--->rgb
           |
-          |
           |--->test_depth--->depth
-          
-Corresponding images should go in final directory as shown above.
-          
-### checkpoints_cyclegan directory
+                 
+Corresponding images should go in final directory as shown above.      
+#### checkpoints_cyclegan directory
 Create a directory named **checkpoints_cyclegan** to save the .pkl files 
-### output
+#### output directory
 Create a directory named **output** to save the inference outputs
 
