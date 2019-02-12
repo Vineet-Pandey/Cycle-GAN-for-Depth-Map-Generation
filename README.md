@@ -38,5 +38,7 @@ run ` python3 Training.py`
 
 ## Testing
 run `python3 testing.py`
+## Pre-Trained weights 
+Pre-trained weights can be found at [Pre-Trained Weights](https://www.dropbox.com/sh/x8oeg2vvmjlsxzc/AAB_hAvTjzV9fquzu-WA942Ea?dl=0)
 
 
