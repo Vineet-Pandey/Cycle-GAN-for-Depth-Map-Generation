@@ -29,4 +29,14 @@ Corresponding images should go in final directory as shown above.
 Create a directory named **checkpoints_cyclegan** to save the .pkl files 
 #### output directory
 Create a directory named **output** to save the inference outputs
+#### samples_cyclegan directory
+Create a directory named **samples_cyclegan** to save samples while training
+
+## Training 
+`cd` to the folder where the scripts are placed
+run ` python3 Training.py`
+
+## Testing
+run `python3 testing.py`
+
 
